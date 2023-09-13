@@ -37,7 +37,7 @@
 // JavaScript dosyanızda
 document.getElementById('Roman').addEventListener('click', function() {
     // Kategoriye tıkladığınızda burada veriyi çekme işlemini başlatın.
-    fetch('http://127.0.0.1:8000/get_books/roman')  // FastAPI URL'sini buraya ekleyin
+    fetch('http://127.0.0.1:8000/get_books/roman')  // FastAPI URL'sini buraya ekleyi
         .then(response => response.json())
         .then(data => {
             // Verileri kullanmak için burada işlem yapabilirsiniz
