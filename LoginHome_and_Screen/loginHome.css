@@ -38,6 +38,20 @@ nav {
 .menu li a {
     color: white;
     text-decoration: none;
+    font-size: 17px;
+}
+
+/* Yönetici Girişi butonuna stil verme */
+.menu i {
+    position: relative; /* İçerik eklemek için pozisyonu ayarlayın */
+    display: inline-block;
+    margin-left: 40px; /* İstediğiniz boşluğu ayarlayın */
+}
+
+/* Sepet simgesi için stil verme */
+.fa-basket-shopping {
+    font-size: 27px; /* Simgenin boyutunu ayarlayın */
+    vertical-align: middle; /* Dikey hizalamayı düzenleyin */
 }
 
 /* Kutu stilleri */
@@ -172,15 +186,15 @@ img {
     cursor: pointer;   /* maouse işareti*/
     background-color: #ca4b3d;
     font-size: 25px;
-    padding: 10px 40px;
+    padding: 10px 35px;
     border-radius: 10px;
 }
 
 .satinal-button:hover{
     background-color:rgb(255, 0, 0);
     font-size: 25px;
-    padding: 10px 40px;
-    border-radius: 10px;
+    padding: 10px 35px;
+    border-radius: 40px;
     }
 
 @keyframes slide {

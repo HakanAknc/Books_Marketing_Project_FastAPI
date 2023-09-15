@@ -30,12 +30,12 @@ function fetchBooksByCategory(category) {
                     <button class="satinal-button">Satın Al</button>
                 `;
 
-                // "Satın Al" butonuna tıklama olayı ekleyin
+                // "Satın Al" butonuna tıklama olayı ekleyidik.
                 const satinalButton = kitapBilgisi.querySelector('.satinal-button');
                 satinalButton.addEventListener('click', () => {
-                // Burada satın alma işlemi yapılabilir veya başka bir sayfaya yönlendirilebilir.
-                // Örnek: window.location.href = 'satinal.html';
-                // alert(`"${kitapAdi}" adlı kitabı satın aldınız.`);
+                // Burada satın alma işlemi yapılabilir veya başka bir sayfaya yönlendirilebiliz.
+                window.location.href = 'login.html';
+                alert(`"${kitapAdi}" kitabını almak için önce üye olmalısınız`);
             });
 
                 veriAlani.appendChild(kitapBilgisi);
@@ -79,12 +79,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         <button class="satinal-button">Satın Al</button>
                     `;
 
-                    // "Satın Al" butonuna tıklama olayı ekleyin
+                    // "Satın Al" butonuna tıklama olayı ekledik.
                     const satinalButton = kitapBilgisi.querySelector('.satinal-button');
                     satinalButton.addEventListener('click', () => {
-                    // Burada satın alma işlemi yapılabilir veya başka bir sayfaya yönlendirilebilir.
-                    // Örnek: window.location.href = 'satinal.html';
-                    // alert(`"${kitapAdi}" adlı kitabı satın aldınız.`);
+                    // Burada satın alma işlemi yapılabilir veya başka bir sayfaya yönlendirilebiliriz.
+                    window.location.href = 'login.html';
+                    alert(`"${kitapAdi}" kitabını almak için önce üye olmalısınız`);
                 });
 
                     // Kitap bilgisini HTML sayfasına ekleyin
@@ -128,12 +128,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     <button class="satinal-button">Satın Al</button>
                 `;
 
-                // "Satın Al" butonuna tıklama olayı ekleyin
+                // "Satın Al" butonuna tıklama olayı ekledik.
                 const satinalButton = kitapBilgisi.querySelector('.satinal-button');
                 satinalButton.addEventListener('click', () => {
-                // Burada satın alma işlemi yapılabilir veya başka bir sayfaya yönlendirilebilir.
-                // Örnek: window.location.href = 'satinal.html';
-                // alert(`"${kitapAdi}" adlı kitabı satın aldınız.`);
+                // Burada satın alma işlemi yapılabilir veya başka bir sayfaya yönlendirilebiliriz.
+                window.location.href = 'login.html';
+                alert(`"${kitapAdi}" kitabını almak için önce üye olmalısınız`);
             });
                 
                 // Kitap bilgisini HTML sayfasına ekleyin
@@ -189,12 +189,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         <button class="satinal-button">Satın Al</button>
                     `;
 
-                    // "Satın Al" butonuna tıklama olayı ekleyin
+                    // "Satın Al" butonuna tıklama olayı ekledik.
                 const satinalButton = kitapBilgisi.querySelector('.satinal-button');
                 satinalButton.addEventListener('click', () => {
-                // Burada satın alma işlemi yapılabilir veya başka bir sayfaya yönlendirilebilir.
-                // Örnek: window.location.href = 'satinal.html';
-                // alert(`"${kitapAdi}" adlı kitabı satın aldınız.`);
+                // Burada satın alma işlemi yapılabilir veya başka bir sayfaya yönlendirilebiliriz.
+                window.location.href = 'login.html';
+                alert(`"${kitapAdi}" kitabını almak için önce üye olmalısınız`);
             });
 
                     veriAlani.appendChild(kitapBilgisi);
