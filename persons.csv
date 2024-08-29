@@ -4,7 +4,7 @@ kisi_id,ad,soyad,tel,bütçe
 3,Samet,Yılmaz,654123789,3000.0
 4,Ahmet,Kemal,987321456,3925.0
 5,Yasin,Faruk,123987654,4735.0
-6,Cafer,Tez,1234567987,4560.0
+6,Cafer,Tez,1234567987,4425.0
 7,Cenk,Tosun,8527410369,4485.0
 8,Arda,Güler,1023657894,7300.0
 9,Emre,Mor,1234567090,7300.0
@@ -12,5 +12,7 @@ kisi_id,ad,soyad,tel,bütçe
 11,Cengiz,Ünder,1239874560,2600.0
 12,Şenol,Güneş,4569873210,2360.0
 13,Enes,Ünal,4785123690,3200.0
-14,İlyas,Çakırbeyli,4563982170,3510.0
+14,İlyas,Çakırbeyli,4563982170,3450.0
 15,Salih,Selman,7564983210,3650.0
+16,Atıf,Bistami,1230456978,1250.0
+17,Acar,Turanlı,7458961230,800.0
